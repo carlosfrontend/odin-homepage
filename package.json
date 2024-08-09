@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "odin-homepage",
   "version": "1.0.0",
-  "description": "Template description",
+  "description": "A responsive homepage",
   "private": true,
   "type": "module",
   "scripts": {
