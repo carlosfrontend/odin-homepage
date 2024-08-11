@@ -161,8 +161,8 @@ header {
   
 }
 .woman_with_laptop{
-  width: 42vw;
-  height: 65vh;
+  width: 34vw;
+  height: 68vh;
   object-fit: cover;
 }
 
@@ -200,10 +200,11 @@ header {
 }
 
 .profile-img-container  h1 {
- font-size: 5.4vw;
+ font-size: 4.4vw;
  font-family: "Playfair Display", serif;
  position: relative;
  top:-1.2em;
  left: 1.5vw;
  color:#ffffff;
+ text-shadow: 1px 1px 1px #000000;
 }
