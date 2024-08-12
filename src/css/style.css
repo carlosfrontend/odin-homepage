@@ -129,22 +129,23 @@ table {
 }
 
 
-html,
-body {
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
+html{
+  width: 100vw;
 }
-*{
-  box-sizing: border-box;
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+  top: 0;
 }
 
 body::before{
   content: "";
   position: absolute;
-  clip-path: polygon(0 0, 100% 0, 100% 53%, 0 100%);
-  background-color: dodgerblue;
-  height: 77vh;
+  top: 0;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  background-color: #0891b2;
+  height: 85vh;
   width: 100vw;
   z-index:-1
 }
@@ -153,16 +154,14 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  align-items: start;
-  border:5px solid black;
-  height: auto;
-  padding: 4em;
+  align-items: center;
+  margin: 5em 8em;
   height: 82vh;
-  
+
 }
 .woman_with_laptop{
   width: 34vw;
-  height: 68vh;
+  height: 69.1vh;
   object-fit: cover;
 }
 
@@ -171,21 +170,21 @@ header {
   flex-direction: column;
   align-self: center;
   padding: 2em;
-  box-shadow: 1px 1px 1px #5643;
+  box-shadow: 4px 5px 8px 5px #21212133;
   background-color: #ffffff;
 
 }
 
 .about-card h2 {
-  font-size: 4rem;
+  font-size: 3vw;
   font-family: "Playfair Display", serif;
   font-weight: 500;
 }
 
 .about-card p {
   padding-top: 2em;
-  font-size: 1.3rem;
-  font-weight: 400;
+  font-size: 1.3vw;
+  font-weight: 300;
   line-height: 1.75em;
   font-family: "Roboto", sans-serif;
 }
@@ -196,7 +195,7 @@ header {
   gap: 1em;
 }
 .social-icons > i {
-  font-size: 2.5em;
+  font-size: 3vw;
 }
 
 .profile-img-container  h1 {
@@ -207,4 +206,117 @@ header {
  left: 1.5vw;
  color:#ffffff;
  text-shadow: 1px 1px 1px #000000;
+}
+
+.projects-container {
+  margin: 4em 8em;
+}
+
+.projects-container h3 {
+  font-size: 2.5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  padding-bottom: .5em;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2em 1em;
+  justify-items: start;
+  align-content: center;
+}
+
+.card {
+  width: 280px;
+  height: auto;
+  object-fit: contain;
+  background-color: #ffffff;
+}
+
+.footer-card{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 4px 7px 1px #79717157;
+  padding: 1em;
+}
+
+.project-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+.project-name h4{
+ font-size: 1.5rem;
+}
+.project-description {
+  padding-bottom: 2em;
+}
+.project-description p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.github, .external-link{
+  width: 1.8em;
+}
+
+.contact-container {
+  padding: 5em 8em;
+  background-color: #0891b2;
+  display: flex;
+  justify-content: space-between;
+  gap: 3em;
+}
+
+.candidate-info h3 {
+  position: relative;
+  color:#ffffff;
+  font-size: 3vw;
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+}
+
+.message p, .address p, .phone span, .email span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.4vw;
+  color:#ffffff;
+  width: 35ch;
+}
+.social-media-links{
+
+  display: flex;
+  gap: 1.5em;
+}
+.social-media-links i {
+  font-size: 2.5rem;
+}
+
+.phone img , .email img {
+  width: 1.8em;
+}
+
+.candidate-picture img{
+ width: 40vw;
+ object-fit: cover;
+}
+
+.candidate-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.email, .phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
 }
