@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/carlosfrontend/battleship-game.git"
+    "url": "git+https://github.com/carlosfrontend/odin-homepage.git"
   },
   "keywords": [],
   "author": "carlosfrontend",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/carlosfrontend/battleship-game/issues"
+    "url": "https://github.com/carlosfrontend/odin-homepage/issues"
   },
-  "homepage": "https://github.com/carlosfrontend/battleship-game#readme",
+  "homepage": "https://github.com/carlosfrontend/odin-homepage#readme",
   "devDependencies": {
     "@babel/core": "^7.24.6",
     "@babel/preset-env": "^7.24.6",

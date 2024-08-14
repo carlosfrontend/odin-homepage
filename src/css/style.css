@@ -184,7 +184,7 @@ figcaption {
   padding: 2em 2em 0 2em;
 }
 
-.about-card h2 {
+.about-card h3 {
   font-size: 3vw;
   font-family: "Playfair Display", serif;
   font-weight: 500;
@@ -199,7 +199,7 @@ figcaption {
 }
 
 .social-icons {
-  padding: 1em 0;
+  padding-right: 2.5em;
   display: flex;
   justify-content: end;
   gap: 1em;
@@ -320,6 +320,7 @@ header h1 {
   font-size: 1.4vw;
   color: #ffffff;
   width: 35ch;
+  padding: 0.2em;
 }
 .social-media-links {
   display: flex;
@@ -355,7 +356,6 @@ header h1 {
 }
 
 @media (min-width: 690px) and (max-width: 1200px) {
-
   body {
     width: 100vw;
   }
@@ -389,7 +389,7 @@ header h1 {
     visibility: hidden;
   }
 
-  .about-card h2 {
+  .about-card h3 {
     display: block;
     text-align: center;
     font-size: 3.5vw;
@@ -463,5 +463,143 @@ header h1 {
     line-height: 1.2em;
     color: #ffffff;
     width: 35ch;
+  }
+}
+
+@media (max-width: 690px) {
+  html {
+    width: 100vw;
+  }
+  body::before {
+    height: 55vh;
+    clip-path: polygon(0 0, 100% 0, 100% 55%, 0 100%);
+  }
+  header {
+    flex-wrap: wrap;
+    width: 100vw;
+    padding: 0;
+    float: none;
+  }
+  figure {
+    padding: 2em 1em 1em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
+
+  figcaption {
+    display: inline-block;
+    width: 100%;
+    font-size: 16.5vw;
+    position: relative;
+    left: -0.9em;
+    top: -2em;
+  }
+
+  .woman_with_laptop {
+    width: 80vw;
+  }
+  section.about-card {
+    width: 100vw;
+    padding: 0;
+    height: auto;
+    box-shadow: none;
+  }
+
+  section.about-card h3 {
+    font-size: 2.5rem;
+
+    text-align: center;
+  }
+
+  section.about-card p {
+    font-size: 1.6rem;
+    padding: 1.5em;
+  }
+
+  .social-icons i {
+    font-size: 2em;
+  }
+  .works-header {
+    display: inline-block;
+    width: 100vw;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  section.projects-container {
+    width: 100vw;
+    padding: 0;
+  }
+
+  .cards-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section.contact-container {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .contact-header {
+    width: 100vw;
+    text-align: center;
+  }
+
+  .contact-header h3 {
+    font-size: 2.2rem;
+  }
+
+  .social-media-links {
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .candidate-info {
+    display: flex;
+    align-items: start;
+  }
+  .candidate-picture {
+    display: flex;
+    justify-content: center;
+  }
+
+  .email img,
+  .phone img {
+    display: none;
+  }
+  .contact-info .phone,
+  .contact-info .email {
+    display: block;
+  }
+  .message,
+  .address,
+  .contact-info {
+    padding-left: 2em;
+  }
+  .message p {
+    font-size: 1.2rem;
+    width: 20ch;
+  }
+  .address p,
+  .contact-info > .phone,
+  .contact-info > .email,
+  .contact-info span {
+    font-size: 1rem;
+  }
+  .candidate-picture img {
+    height: 50vh;
+    width: 100vw;
+    position: absolute;
+  }
+  .email{
+    line-height: 2.5em;
   }
 }
