@@ -72,7 +72,7 @@ odin-homepage/
 
 ## 📸 Captura de pantalla
 
-![Vista previa de la landing page](https://carlosfrontend.github.io/odin-homepage/preview.png)
+![Captura desde 2025-05-14 13-44-46](https://github.com/user-attachments/assets/687d24f8-813b-491c-bc79-d68ba62f65f9)
 
 ---
 
