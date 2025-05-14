@@ -12,7 +12,6 @@ Una landing page responsive desarrollada como parte del curso de **Advanced HTML
 - 🎨 **CSS3** – Estilos avanzados con uso de Flexbox y Grid.
 - ⚙️ **JavaScript** – Interactividad básica.
 - 📦 **Webpack** – Empaquetado y gestión de módulos.
-- 🧪 **Jest** – Pruebas unitarias.
 - 🧹 **ESLint** – Linter para mantener un código limpio y consistente.
 
 ---
